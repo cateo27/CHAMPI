@@ -35,3 +35,8 @@ names = pd.read_csv('names.csv', sep = '\t', header=0)
 print(names.head(5))
 print(names.tail(5))
 
+print("-------------- Fichier observations.csv  --------------")
+obs = pd.read_csv('observations.csv', sep = '\t', header=0)
+print(obs.head(5))
+print(obs.tail(5))
+
